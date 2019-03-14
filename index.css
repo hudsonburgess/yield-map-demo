@@ -11,6 +11,10 @@
     align-items: center;
 }
 
+#full-field-charts {
+    margin-top: 2rem;
+}
+
 /* Optional: Makes the sample page fill the window. */
 html,
 body {

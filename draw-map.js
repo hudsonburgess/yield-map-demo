@@ -1,218 +1,12 @@
-const lipData = [{
-        "fieldName": "LIP",
-        "sampleName": "LIP12",
-        "sampleLat": 37.53501841,
-        "sampleLon": -76.8828617,
-        "p_2013": 53,
-        "p_removal_2013": 40.66,
-        "p_rec_2013": 40,
-        "p_expected_2014": 52.34,
-        "p_actual_2014": 105
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP13",
-        "sampleLat": 37.53439336,
-        "sampleLon": -76.88285336,
-        "p_2013": 61,
-        "p_removal_2013": 39.14,
-        "p_rec_2013": 40,
-        "p_expected_2014": 61.86,
-        "p_actual_2014": 93
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP21",
-        "sampleLat": 37.53138169,
-        "sampleLon": -76.88193823,
-        "p_2013": 77,
-        "p_removal_2013": 39.14,
-        "p_rec_2013": 0,
-        "p_expected_2014": 37.86,
-        "p_actual_2014": 125
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP22",
-        "sampleLat": 37.53191326,
-        "sampleLon": -76.88206986,
-        "p_2013": 53,
-        "p_removal_2013": 56.62,
-        "p_rec_2013": 60,
-        "p_expected_2014": 56.38,
-        "p_actual_2014": 72
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP23",
-        "sampleLat": 37.53250656,
-        "sampleLon": -76.88224999,
-        "p_2013": 37,
-        "p_removal_2013": 71.44,
-        "p_rec_2013": 60,
-        "p_expected_2014": 25.56,
-        "p_actual_2014": 68
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP24",
-        "sampleLat": 37.53299178,
-        "sampleLon": -76.88241996,
-        "p_2013": 40,
-        "p_removal_2013": 56.62,
-        "p_rec_2013": 60,
-        "p_expected_2014": 43.38,
-        "p_actual_2014": 73
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP25",
-        "sampleLat": 37.53352831,
-        "sampleLon": -76.88260005,
-        "p_2013": 68,
-        "p_removal_2013": 68.4,
-        "p_rec_2013": 40,
-        "p_expected_2014": 39.6,
-        "p_actual_2014": 98
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP26",
-        "sampleLat": 37.53357338,
-        "sampleLon": -76.88327161,
-        "p_2013": 62,
-        "p_removal_2013": 52.06,
-        "p_rec_2013": 0,
-        "p_expected_2014": 9.94,
-        "p_actual_2014": 114
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP27",
-        "sampleLat": 37.53299179,
-        "sampleLon": -76.88307823,
-        "p_2013": 77,
-        "p_removal_2013": 31.54,
-        "p_rec_2013": 40,
-        "p_expected_2014": 85.46,
-        "p_actual_2014": 88
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP28",
-        "sampleLat": 37.53247673,
-        "sampleLon": -76.88291994,
-        "p_2013": 87,
-        "p_removal_2013": 46.36,
-        "p_rec_2013": 60,
-        "p_expected_2014": 100.64,
-        "p_actual_2014": 85
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP29",
-        "sampleLat": 37.53166994,
-        "sampleLon": -76.88272662,
-        "p_2013": 68,
-        "p_removal_2013": 49.02,
-        "p_rec_2013": 40,
-        "p_expected_2014": 58.98,
-        "p_actual_2014": 101
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP30",
-        "sampleLat": 37.53162873,
-        "sampleLon": -76.88327119,
-        "p_2013": 75,
-        "p_removal_2013": 63.08,
-        "p_rec_2013": 40,
-        "p_expected_2014": 51.92,
-        "p_actual_2014": 86
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP31",
-        "sampleLat": 37.5321985,
-        "sampleLon": -76.88340992,
-        "p_2013": 57,
-        "p_removal_2013": 70.68,
-        "p_rec_2013": 60,
-        "p_expected_2014": 46.32,
-        "p_actual_2014": 58
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP32",
-        "sampleLat": 37.53273326,
-        "sampleLon": -76.88353334,
-        "p_2013": 57,
-        "p_removal_2013": 69.16,
-        "p_rec_2013": 60,
-        "p_expected_2014": 47.84,
-        "p_actual_2014": 81
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP33",
-        "sampleLat": 37.53328998,
-        "sampleLon": -76.88372501,
-        "p_2013": 58,
-        "p_removal_2013": 47.88,
-        "p_rec_2013": 0,
-        "p_expected_2014": 10.12,
-        "p_actual_2014": 115
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP34",
-        "sampleLat": 37.53387826,
-        "sampleLon": -76.88390827,
-        "p_2013": 43,
-        "p_removal_2013": 59.28,
-        "p_rec_2013": 60,
-        "p_expected_2014": 43.72,
-        "p_actual_2014": 81
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP35",
-        "sampleLat": 37.53441169,
-        "sampleLon": -76.88404659,
-        "p_2013": 65,
-        "p_removal_2013": 61.18,
-        "p_rec_2013": 60,
-        "p_expected_2014": 63.82,
-        "p_actual_2014": 74
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP36",
-        "sampleLat": 37.53521164,
-        "sampleLon": -76.88427331,
-        "p_2013": 62,
-        "p_removal_2013": 57.38,
-        "p_rec_2013": 60,
-        "p_expected_2014": 64.62,
-        "p_actual_2014": 66
-    },
-    {
-        "fieldName": "LIP",
-        "sampleName": "LIP37",
-        "sampleLat": 37.53175662,
-        "sampleLon": -76.88387502,
-        "p_2013": 65,
-        "p_removal_2013": 65.74,
-        "p_rec_2013": 0,
-        "p_expected_2014": -0.74,
-        "p_actual_2014": 128
-    }
-];
-
 function initMap() {
-    const mapCenter = getMapCenter(lipData);
-    const map = openMapAtCenterPoint(mapCenter);
-    lipData.forEach(s => createMarkerForSample(map, s));
+    d3.json('lip-data.json').then(lipData => {
+        const mapCenter = getMapCenter(lipData);
+        const map = openMapAtCenterPoint(mapCenter);
+        lipData.forEach(s => createMarkerForSample(map, s));
+
+        drawApplicationChart(lipData);
+        drawYieldChart(lipData);
+    });
 }
 
 function getMapCenter(samples) {
@@ -248,7 +42,6 @@ function createMarkerForSample(map, sample) {
     var sampleInfoWindow = createInfoWindowForSample(sample);
     marker.addListener('click', () => {
         sampleInfoWindow.open(map, marker);
-        drawChartsForSample(sample);
     });
 
     return marker;
@@ -263,77 +56,112 @@ function createInfoWindowForSample(sample) {
     });
 }
 
-function drawChartsForSample(sample) {
-    clearChart();
+function drawApplicationChart(samples) {
+    const chartMargin = {
+        top: 0,
+        right: 0,
+        bottom: 19,
+        left: 60
+    };
 
-    const chartSelection = d3.select('#chart').data([sample]);
+    const chartWidth = 1200 + chartMargin.left + chartMargin.right;
+    const chartHeight = d3.max(samples, s => s.p_2013 + s.p_rec_2013) + chartMargin.top + chartMargin.bottom;
+    const applicationChartWrapper = d3.select('#full-field-charts').append('svg')
+        .attr('width', chartWidth)
+        .attr('height', chartHeight);
 
-    chartSelection
-        .append('h2')
-        .text(s => s.sampleName);
+    const applicationChart = applicationChartWrapper.append('g')
+        .attr('transform', 'translate(' + chartMargin.left + ', ' + chartMargin.right + ')');
 
-    chartSelection
-        .append('div')
-        .attr('id', 'bar-wrapper')
-        .style('display', 'inline-flex');
+    const bars = applicationChart.selectAll('rect')
+        .data(samples);
 
-    const barWrapper = d3.select('#bar-wrapper').data([sample]);
+    const x = d3.scaleBand()
+        .domain(samples.map(s => s.sampleName))
+        .range([0, chartWidth - chartMargin.left - chartMargin.right])
+        .paddingInner(0.3)
+        .paddingOuter(0);
 
-    const barWidth = '70px';
+    const xAxis = d3.axisBottom(x);
+    applicationChart.append('g')
+        .attr('transform', 'translate(0, ' + (chartHeight - chartMargin.bottom) + ')')
+        .call(xAxis);
 
-    barWrapper
-        .append('div')
-        .attr('id', 'bar-1')
-        .style('display', 'inline-flex')
-        .style('flex-direction', 'column')
-        .style('justify-content', 'flex-end')
-        .style('margin-right', '8px');
+    const y = d3.scaleLinear()
+        .domain([0, d3.max(samples.map(s => s.p_2013 + s.p_rec_2013))])
+        .range([d3.max(samples.map(s => s.p_2013 + s.p_rec_2013)), 0]);
 
-    const bar1 = d3.select('#bar-1').data([sample]);
+    const yAxis = d3.axisLeft(y);
+    applicationChart.append('g')
+        .call(yAxis);
 
-    bar1
-        .append('p')
-        .text(s => (s.p_2013 + s.p_rec_2013) + ' lbs/a');
+    // soil test P
+    bars.enter()
+        .append('rect')
+        .attr('x', s => x(s.sampleName))
+        .attr('y', s => y(s.p_2013))
+        .attr('width', x.bandwidth)
+        .attr('height', s => s.p_2013)
+        .attr('fill', 'green');
 
-    bar1
-        .append('div')
-        .style('height', s => (s.p_rec_2013 * 2) + 'px')
-        .style('width', barWidth)
-        .style('background-color', 'yellow')
-        .text('2013 P\nrec');
-
-    bar1
-        .append('div')
-        .style('height', s => (s.p_2013 * 2) + 'px')
-        .style('width', barWidth)
-        .style('background-color', 'lightgreen')
-        .text('2013 P');
-
-    barWrapper
-        .append('div')
-        .attr('id', 'bar-2')
-        .style('display', 'inline-flex')
-        .style('flex-direction', 'column')
-        .style('justify-content', 'flex-end')
-        .style('margin-right', '8px');
-
-    const bar2 = d3.select('#bar-2').data([sample]);
-
-    bar2
-        .append('p')
-        .text(s => s.p_removal_2013 + ' lbs/a');
-
-    bar2
-        .append('div')
-        .style('height', s => (s.p_removal_2013 * 2) + 'px')
-        .style('width', barWidth)
-        .style('background-color', 'palevioletred')
-        .text('2013 P\nremoval');
+    // applied P
+    bars.enter()
+        .append('rect')
+        .attr('x', s => x(s.sampleName))
+        .attr('y', s => y(s.p_2013 + s.p_rec_2013))
+        .attr('width', x.bandwidth)
+        .attr('height', s => s.p_rec_2013)
+        .attr('fill', 'gold');
 }
 
-function clearChart() {
-    const el = document.getElementById('chart');
-    while (el.firstChild) {
-        el.removeChild(el.firstChild);
-    }
+function drawYieldChart(samples) {
+    const chartMargin = {
+        top: 4,
+        right: 0,
+        bottom: 0,
+        left: 60
+    };
+
+    const chartWidth = 1200 + chartMargin.left + chartMargin.right;
+    const chartHeight = d3.max(samples, s => s.p_removal_2013) + chartMargin.top + chartMargin.bottom;
+    const yieldChartWrapper = d3.select('#full-field-charts').append('svg')
+        .attr('width', chartWidth)
+        .attr('height', chartHeight);
+
+    const yieldChart = yieldChartWrapper.append('g')
+        .attr('transform', 'translate(' + chartMargin.left + ', ' + chartMargin.right + ')');
+
+    const x = d3.scaleBand()
+        .domain(samples.map(s => s.sampleName))
+        .range([0, chartWidth - chartMargin.left - chartMargin.right])
+        .paddingInner(0.3)
+        .paddingOuter(0);
+
+    const xAxis = d3.axisTop(x)
+        .tickFormat('');
+    yieldChart.append('g')
+        .attr('transform', 'translate(0, ' + chartMargin.top + ')')
+        .call(xAxis);
+
+
+    const y = d3.scaleLinear()
+        .domain([0, d3.max(samples, s => s.p_removal_2013)])
+        .range([0, d3.max(samples, s => s.p_removal_2013)]);
+    const yAxis = d3.axisLeft(y)
+        .tickValues([0, 20, 40, 60, 80]);
+    yieldChart.append('g')
+        .call(yAxis)
+        .attr('transform', 'translate(0, ' + chartMargin.top + ')');
+
+    const bars = yieldChart.selectAll('rect')
+        .data(samples);
+
+    // removed P
+    bars.enter()
+        .append('rect')
+        .attr('x', s => x(s.sampleName))
+        .attr('y', chartMargin.top)
+        .attr('width', x.bandwidth)
+        .attr('height', s => s.p_removal_2013)
+        .attr('fill', 'palevioletred');
 }
